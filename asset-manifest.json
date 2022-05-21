@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/exchange-converter-react/static/js/main.eb0d3b78.js",
+    "static/media/convert-icon.png": "/exchange-converter-react/static/media/convert-icon.82b475d5a73c046004c8.png",
+    "static/media/EUR.svg": "/exchange-converter-react/static/media/EUR.26c14270e73fb88da340e72320d304de.svg",
+    "static/media/USD.svg": "/exchange-converter-react/static/media/USD.e834167e589569457e802802d3958724.svg",
+    "index.html": "/exchange-converter-react/index.html",
+    "static/media/RUR.svg": "/exchange-converter-react/static/media/RUR.f6bf75dc753a7e2944a7871bcdd29e60.svg",
+    "static/media/UAH.svg": "/exchange-converter-react/static/media/UAH.f9cbc20b1a8b52e25c92bad309fd6f47.svg",
+    "main.eb0d3b78.js.map": "/exchange-converter-react/static/js/main.eb0d3b78.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.eb0d3b78.js"
+  ]
+}

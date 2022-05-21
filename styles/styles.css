@@ -1,0 +1,181 @@
+*,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  background-color: whitesmoke;
+}
+
+#root .header {
+  background-color: rgba(244, 250, 245, 0.932);
+  display: block;
+  margin: 0 15px 15px 15px;
+  border-radius: 0 0 10px 10px;
+  border: 1px solid rgba(46, 156, 63, 0.753);
+}
+
+#root .header .currency-exchange-list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .header .currency-exchange-list .currency-exchange-list-item {
+  background-color: rgba(46, 156, 63, 0.753);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#root .header .currency-exchange-list .currency-exchange-list-item .list-item-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 0 0 5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#root .exchange-block-wrapper {
+  background-color: rgba(244, 250, 245, 0.932);
+  padding: 20px;
+  margin: 15px;
+  border: 1px solid rgba(46, 156, 63, 0.753);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#root .exchange-block-wrapper .exchange-convertation-img-wrapper {
+  margin: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#root .exchange-block-wrapper .exchange-convertation-img-wrapper .exchange-convertation-img {
+  width: 30px;
+  height: 30px;
+}
+
+#root .exchange-block-wrapper .exchange-item {
+  margin: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root .exchange-block-wrapper .exchange-item .exchange-item-input {
+  padding: 7px 5px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #d9d9d9;
+  margin-right: 10px;
+}
+
+#root .exchange-block-wrapper .exchange-item .exchange-item-input:focus {
+  border: 1px solid rgba(46, 156, 63, 0.753);
+  -webkit-box-shadow: 1px rgba(46, 156, 63, 0.753);
+          box-shadow: 1px rgba(46, 156, 63, 0.753);
+}
+
+#root .exchange-block-wrapper .exchange-item .exchange-item-input:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid rgba(46, 156, 63, 0.753);
+  -webkit-box-shadow: 1px rgba(46, 156, 63, 0.753);
+          box-shadow: 1px rgba(46, 156, 63, 0.753);
+}
+
+#root .exchange-block-wrapper .exchange-item .exchange-select-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0 10px 10px;
+}
+
+#root .exchange-block-wrapper .exchange-item .exchange-select-wrapper .exchange-item-select {
+  margin-left: 10px;
+  border: 2px solid rgba(46, 156, 63, 0.753);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+#root .made-by-rodnick {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  color: grey;
+}
+
+#root .made-by-rodnick .made-by-span {
+  color: rgba(17, 255, 53, 0.897);
+}
+
+@media screen and (max-width: 776px) {
+  #root .exchange-block-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
